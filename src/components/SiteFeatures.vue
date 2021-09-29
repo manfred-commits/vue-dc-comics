@@ -7,8 +7,9 @@
             <li v-for="(feature,index) in features" :key="index">
                 <a :href="feature.url">
                     <div class="container-img">
-                        <img src="@/assets/img/buy-comics-digital-comics.png" alt="">
-                        <!-- <img :src="'@/assets/img/buy-' + feature.img " alt=""> -->
+                        <!-- <img src="@/assets/img/buy-comics-digital-comics.png" alt=""> -->
+                        <img :src="'@/assets/img/' + feature.img" :alt="feature.link.toUpperCase()">
+                        
                     </div>
                     <h4>{{feature.link.toUpperCase()}}</h4>
                 </a>
@@ -27,28 +28,28 @@ export default {
         return {
             features:    [
                 {
-                    img:'comics-digital-comics',
+                    img:'buy-comics-digital-comics.png',
                     url:'#',
                     link:'digital comics'
                 },
                 {
-                    img:'comics-merchandise.png',
+                    img:'buy-comics-merchandise.png',
                     url:'#',
                     link:'Dc merchandise'
                 },
                 {
-                    img:'comics-shop-locator.png',
+                    img:'buy-comics-subscriptions.png',
                     url:'#',
                     link:'subscription'
 
                 },
                 {
-                    img:'comics-subscriptions.png',
+                    img:'buy-comics-shop-locator.png',
                     url:'#',
                     link:'Comic shop locator'
                 },
                 {
-                    img:'dc-power-visa.svg',
+                    img:'buy-dc-power-visa.svg',
                     url:'#',
                     link:'Dc power visa'
 
