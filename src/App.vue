@@ -27,9 +27,5 @@ export default {
 @import './style/common.scss';
 @import './style/variables.scss';
 
-.container-page{
-  width: 80%;
-  margin: auto;
 
-}
 </style>

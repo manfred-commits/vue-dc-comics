@@ -1,6 +1,8 @@
 <template>
     <footer>
-        
+        <section class="general-content-formatting">
+            
+        </section>
     </footer>
 </template>
 

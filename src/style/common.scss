@@ -8,4 +8,9 @@
 }
 body{
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: $primary_background_color;
+}
+.general-content-formatting{
+    width: 80%;
+    margin: auto;
 }

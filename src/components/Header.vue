@@ -1,17 +1,18 @@
 <template>
     <header>
-        <nav>
-            <div class="container-img">
-                <img src="@/assets/img/dc-logo.png" alt=" Detective Comics small logo">
-            </div>
-            
-            <ul>
-                <li v-for="(component,index) in nav" :key="index" :class="{active : component.current==true}">
-                    <a :href="component.url">{{component.name.toUpperCase()}}</a>
-                </li>
-            </ul>
-            
-        </nav>
+        <div class="general-content-formatting">
+            <nav>
+                <div class="container-img">
+                    <img src="@/assets/img/dc-logo.png" alt=" Detective Comics small logo">
+                </div>
+                
+                <ul>
+                    <li v-for="(component,index) in nav" :key="index" :class="{active : component.current==true}">
+                        <a :href="component.url">{{component.name.toUpperCase()}}</a>
+                    </li>
+                </ul>            
+            </nav>
+        </div>
     </header>
 </template>
 
@@ -82,7 +83,7 @@ export default {
 @import '../style/variables.scss';
 header{
     margin: 0rem 0rem 1.25rem;
-
+    background-color: $nav_primary_background_color;
     nav{
         display: flex;
         align-items: center;
@@ -127,7 +128,7 @@ header{
                 }
 
                 a{
-                    color: $nav_primary_color;
+                    color: $nav_primary_text_color;
                     text-decoration: none;
                 }
             }
