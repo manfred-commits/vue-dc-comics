@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <Header/>
-    <Main/>
-    <Footer/>
+    <div class="container-page">
+      <Header/>
+      <Main/>
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -22,5 +24,12 @@ export default {
 </script>
 
 <style lang="scss">
+@import './style/common.scss';
+@import './style/variables.scss';
 
+.container-page{
+  width: 80%;
+  margin: auto;
+
+}
 </style>

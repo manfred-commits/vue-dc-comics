@@ -1,0 +1,11 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
