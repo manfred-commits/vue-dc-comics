@@ -3,6 +3,7 @@
     <div class="container-page">
       <Header/>
       <Main/>
+      <SiteFeatures/>
       <Footer/>
     </div>
   </div>
@@ -11,6 +12,7 @@
 <script>
 import Header from './components/Header'
 import Main from './components/Main'
+import SiteFeatures from './components/SiteFeatures'
 import Footer from './components/Footer'
 
 export default {
@@ -18,6 +20,7 @@ export default {
   components: {
     Header,
     Main,
+    SiteFeatures,
     Footer
   }
 }
