@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="general-content-formatting">
+        <div class="general-content-formatting top">
 
             <section class="footer-top">
                 <div class="footer-top-menus">
@@ -157,8 +157,44 @@
                 </div>
                 
             </section>
-            <section class="footer-bottom">
-
+        </div>
+        <div class="bottom">
+            <section class="general-content-formatting footer-bottom">
+                <div class="left-clm">
+                    <button>SIGN-UP NOW!</button>
+                </div>
+                <div class="right-clm">
+                    <h4>
+                        <a href="#">
+                            FOLLOW US
+                        </a>
+                    </h4>
+                    <div class="footer-logo-socials">
+                        <a href="#">
+                            <img src="../assets/img/footer-facebook.png" alt="facebook link">
+                        </a>
+                    </div>
+                    <div class="footer-logo-socials">
+                        <a href="#">
+                            <img src="../assets/img/footer-twitter.png" alt="twitter link">
+                        </a>
+                    </div>
+                    <div class="footer-logo-socials">
+                        <a href="#">
+                            <img src="../assets/img/footer-youtube.png" alt="youtube link">
+                        </a>
+                    </div>
+                    <div class="footer-logo-socials">
+                        <a href="#">
+                            <img src="../assets/img/footer-pinterest.png" alt="pinterest link">
+                        </a>
+                    </div>
+                    <div class="footer-logo-socials">
+                        <a href="#">
+                            <img src="../assets/img/footer-periscope.png" alt="periscope link">
+                        </a>
+                    </div>
+                </div>
             </section>
         </div>
     </footer>
@@ -172,11 +208,14 @@ export default {
 
 <style lang="scss" scoped>
 
+@import '../style/variables.scss';
+
+
 footer{
     background-image: url('../assets/img/footer-bg.jpg');
     background-position: center top;
 
-    .general-content-formatting{
+    .top{
         flex-grow: 1;
         height: 100%;
         background-image: url('../assets/img/dc-logo-bg.png');
@@ -193,7 +232,7 @@ footer{
                 display: flex;
                 flex-wrap: wrap;
                 align-items: flex-start;
-                width: 50%;
+                width: 100%;
                 padding: 0 0 2.8125rem;
                 padding-left: 0rem;
 
@@ -231,6 +270,56 @@ footer{
         }
 
         
+    }
+    .bottom{
+        flex-grow: 1;
+        height: 100%;
+        background-color: #303030;
+
+        .footer-bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.875rem 0;
+            .left-clm{
+
+                button{
+                    padding: .625rem;
+                    background-color: #303030;
+                    border-color: $site-features_primary_background_color;
+                    color: white;
+                    font-weight: bold;
+                    border-style: solid;
+                }
+
+
+            }
+            .right-clm{
+                display: flex;
+                align-items: center;
+
+                h4{
+
+                    padding-right: 1.225rem;
+
+                    a{
+                        text-decoration: none;
+                        color: $site-features_primary_background_color;
+                    }
+                }
+
+                .footer-logo-socials{
+                    padding: 0 .625rem 0;
+
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                }
+                
+            }
+
+
+        }
     }
 
 }
