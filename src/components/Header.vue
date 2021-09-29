@@ -93,9 +93,8 @@ header{
         
         .container-img{
             
-            height: 100%;
-            padding: .9375rem;
-            padding-left: 0;
+            height: 5rem;
+            
 
             img{
                 object-fit: cover;
@@ -112,11 +111,13 @@ header{
 
             li:last-child{
                padding-right: 0rem; 
+               margin-right: 0rem; 
             }
 
             li{
-                padding: 1.25rem;
-
+                padding: 2.5rem 0;
+                margin: 0rem 1rem;
+            
                 &.active{
                     color: $active_color;
                     border-bottom: .1875rem solid $active_color;
