@@ -5,9 +5,6 @@
                 <h2>-->Content goes here </h2>
             </section>
 
-            <section class="site-features">
-
-            </section>
         </div>
 
     </main>
@@ -27,8 +24,6 @@ export default {
             color: white;
             padding: 1.25rem 0;
         }
-        .site-features{
-            background-color: $site-features_primary_background_color;
-        }
+        
     }
 </style>

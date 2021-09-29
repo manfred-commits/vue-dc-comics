@@ -82,8 +82,9 @@ export default {
 <style lang="scss" scoped>
 @import '../style/variables.scss';
 header{
-    margin: 0rem 0rem 1.25rem;
+    
     background-color: $nav_primary_background_color;
+    
     nav{
         display: flex;
         align-items: center;
