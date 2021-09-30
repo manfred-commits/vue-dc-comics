@@ -8,7 +8,7 @@
                 <a :href="feature.url">
                     <div class="container-img">
                         <!-- <img src="@/assets/img/buy-comics-digital-comics.png" alt=""> -->
-                        <img :src="'@/assets/img/' + feature.img" :alt="feature.link.toUpperCase()">
+                        <img :src="'img/' + feature.img" :alt="feature.link.toUpperCase()">
                         
                     </div>
                     <h4>{{feature.link.toUpperCase()}}</h4>
@@ -90,7 +90,7 @@ export default {
 
 
                     .container-img{
-                        height: 70px;
+                        height: 60px;
                         img{
                             object-fit: cover;
                             width: 100%;
