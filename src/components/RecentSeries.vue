@@ -122,6 +122,7 @@ export default {
         position: absolute;
         top: -2.1875rem;
         left: 0;
+        font-size: 1.25rem;
         
     }
     .comics{
