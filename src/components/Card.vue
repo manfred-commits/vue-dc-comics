@@ -27,9 +27,9 @@ export default {
 
     img{
         object-fit: cover;
-        object-position: center;
+        object-position: center top;
         width: 100%;
-        height: 9.375rem;
+        height: 12.5rem;
     }
     h5{
         color: lightgrey;

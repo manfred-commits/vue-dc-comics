@@ -109,7 +109,7 @@ export default {
     position: relative;
 
     button{
-        top: -1.80rem;
+        
         color: white;
         font-weight: bold;
         font-size: .875rem;
@@ -120,13 +120,14 @@ export default {
     }
     .current-series{
         position: absolute;
-        
+        top: -2.1875rem;
         left: 0;
         
     }
     .comics{
         display: flex;
         flex-wrap: wrap;
+        margin: 1.25rem 0;
         align-items: flex-start;
     }
 }
