@@ -7,8 +7,8 @@
             <li v-for="(feature,index) in features" :key="index">
                 <a :href="feature.url">
                     <div class="container-img">
-                        <!-- <img src="@/assets/img/buy-comics-digital-comics.png" alt=""> -->
-                        <img :src="'img/' + feature.img" :alt="feature.link.toUpperCase()">
+                        
+                        <img :src="require('../assets/img/'+ feature.img)" :alt="feature.link.toUpperCase()">
                         
                     </div>
                     <h4>{{feature.link.toUpperCase()}}</h4>

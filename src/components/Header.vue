@@ -3,7 +3,7 @@
         <div class="general-content-formatting">
             <nav>
                 <div class="container-img">
-                    <img src="img/dc-logo.png" alt=" Detective Comics small logo">
+                    <img src="../assets/img/dc-logo.png" alt=" Detective Comics small logo">
                 </div>
                 
                 <ul>
