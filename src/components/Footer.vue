@@ -171,27 +171,27 @@
                     </h4>
                     <div class="footer-logo-socials">
                         <a href="#">
-                            <img src="../assets/img/footer-facebook.png" alt="facebook link">
+                            <img src="img/footer-facebook.png" alt="facebook link">
                         </a>
                     </div>
                     <div class="footer-logo-socials">
                         <a href="#">
-                            <img src="../assets/img/footer-twitter.png" alt="twitter link">
+                            <img src="img/footer-twitter.png" alt="twitter link">
                         </a>
                     </div>
                     <div class="footer-logo-socials">
                         <a href="#">
-                            <img src="../assets/img/footer-youtube.png" alt="youtube link">
+                            <img src="img/footer-youtube.png" alt="youtube link">
                         </a>
                     </div>
                     <div class="footer-logo-socials">
                         <a href="#">
-                            <img src="../assets/img/footer-pinterest.png" alt="pinterest link">
+                            <img src="img/footer-pinterest.png" alt="pinterest link">
                         </a>
                     </div>
                     <div class="footer-logo-socials">
                         <a href="#">
-                            <img src="../assets/img/footer-periscope.png" alt="periscope link">
+                            <img src="img/footer-periscope.png" alt="periscope link">
                         </a>
                     </div>
                 </div>
@@ -212,13 +212,13 @@ export default {
 
 
 footer{
-    background-image: url('../assets/img/footer-bg.jpg');
+    background-image: url('../assets/footer-bg.jpg');
     background-position: center top;
 
     .top{
         flex-grow: 1;
         height: 100%;
-        background-image: url('../assets/img/dc-logo-bg.png');
+        background-image: url('../assets/dc-logo-bg.png');
         background-repeat: no-repeat;
         background-position: center right;
 
