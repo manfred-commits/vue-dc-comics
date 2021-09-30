@@ -1,7 +1,10 @@
 <template>
     <div class="card-container">
         <img :src="card.thumb" :alt="card.type">
-        <h5>{{card.series}}</h5>
+        
+        <div class="series">
+            <h5>{{card.series}}</h5>
+        </div>
     </div>
 </template>
 
@@ -15,12 +18,22 @@ export default {
 
 <style lang="scss" scope>
 .card-container{
-    width: 100% /6;
+    text-align: center;
+    width: calc(100% / 6);
+    padding: .625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     img{
         object-fit: cover;
         object-position: center;
         width: 100%;
+        height: 9.375rem;
+    }
+    h5{
+        color: lightgrey;
+        margin: .625rem;
     }
 }
 </style>

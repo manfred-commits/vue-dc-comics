@@ -4,6 +4,7 @@
       <Header/>
       <Main/>
       <Hero/>
+      <RecentSeries/>
       <SiteFeatures/>
       <Footer/>
     </div>
@@ -14,7 +15,7 @@
 import Header from './components/Header'
 import Main from './components/Main'
 import Hero from './components/Hero'
-
+import RecentSeries from './components/RecentSeries'
 import SiteFeatures from './components/SiteFeatures'
 import Footer from './components/Footer'
 
@@ -24,6 +25,7 @@ export default {
     Header,
     Main,
     Hero,
+    RecentSeries,
     SiteFeatures,
     Footer
   }
