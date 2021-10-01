@@ -1,11 +1,11 @@
 <template>
-    <div class="card-container">
+    <li class="card-container">
         <img :src="card.thumb" :alt="card.type">
         
         <div class="series">
             <h5>{{card.series}}</h5>
         </div>
-    </div>
+    </li>
 </template>
 
 <script>

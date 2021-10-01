@@ -1,10 +1,12 @@
 <template>
     <div class="general-content-formatting">
         <button class="current-series">Current Series</button>
-        <section class="comics">
+        <ul class="comics">
+
             <Card v-for="(comic,index) in myJson" :key="index" :card="comic" />
 
-        </section>
+
+        </ul>
         <button>Load More</button>
 
     </div>
@@ -57,6 +59,7 @@ export default {
         display: flex;
         flex-wrap: wrap;
         margin: 1.25rem 0;
+        list-style: none;
         align-items: flex-start;
     }
 }
