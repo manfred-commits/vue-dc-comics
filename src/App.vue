@@ -3,7 +3,7 @@
     <div class="container-page">
       <Header/>
       <Main/>
-      <Hero/>
+      <Hero :heroImg="require('./assets/img/jumbotron.jpg')"/>
       <RecentSeries/>
       <SiteFeatures/>
       <Footer/>

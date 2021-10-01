@@ -1,16 +1,19 @@
 <template>
-  <div class="container-hero"></div>
+  <div class="container-hero" :style="{'background-image': 'url(' + heroImg + ')'}"></div>
 </template>
 
 <script>
 export default {
     name:'Hero',
+    props: [
+      'heroImg'
+    ]
 }
 </script>
 
 <style lang="scss" scope>
 .container-hero{
-    background-image: url('../assets/img/jumbotron.jpg');
+    
     background-position: center top;
     background-size: cover;
     height: 25rem;
